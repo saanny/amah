@@ -1,7 +1,16 @@
 #!/usr/bin/env node
-const clearConsole = require("clear-any-console");
+const packageJson = require("./package.json");
+const welcome = require("cli-welcome");
 
-clearConsole();
+welcome({
+  title: packageJson.name,
+  version: packageJson.version,
+  description: packageJson.description,
+  tagLine: "Hello, nice to meet ya!",
+  bold: true,
+  clear: true,
+});
+
 console.log(`
 Amir Ahmadi - Software Engineer
 
