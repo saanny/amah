@@ -1,0 +1,8 @@
+{
+    "name":"amah",
+    "version":"1.0.0",
+    "bin":{
+        "amah":"index.js"
+    }
+
+}
