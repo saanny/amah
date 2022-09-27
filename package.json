@@ -1,8 +1,10 @@
 {
-    "name":"amah",
-    "version":"1.0.0",
-    "bin":{
-        "amah":"index.js"
+    "name": "amah",
+    "version": "1.0.0",
+    "bin": {
+        "amah": "index.js"
+    },
+    "dependencies": {
+        "clear-any-console": "^1.16.2"
     }
-
 }
